@@ -1,0 +1,57 @@
+{{ define "main" }}
+<style>
+.posts-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+.posts-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  min-height: calc(100vh - 200px);
+}
+.post-card {
+  display: block;
+  border: 1px solid #4f46e5;
+  border-radius: 12px;
+  padding: 24px 28px;
+  text-decoration: none;
+  color: inherit;
+  background: rgba(79, 70, 229, 0.08);
+  transition: background 0.2s;
+  margin-bottom: 16px;
+}
+.post-card:hover {
+  background: rgba(79, 70, 229, 0.18);
+}
+.post-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+.post-card-meta {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  margin: 0 0 10px 0;
+}
+.post-card-desc {
+  font-size: 0.95rem;
+  opacity: 0.65;
+  margin: 0;
+  line-height: 1.6;
+}
+</style>
+
+<div class="posts-wrap">
+  <h1>Posts</h1>
+{{ range where .Site.RegularPages "Section" "posts" }}
+  <a href="{{ .Permalink }}" class="post-card">
+    <p class="post-card-title">{{ .Title }}</p>
+    <p class="post-card-meta">{{ .Date.Format "January 2, 2006" }}
+      {{ with .Params.tags }}· {{ range . }}<span style="margin-right:6px; opacity:0.7;">#{{ . }}</span>{{ end }}{{ end }}
+    </p>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

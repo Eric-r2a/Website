@@ -1,0 +1,41 @@
+baseURL: "https://ericantonecchia.com/"
+locale: en-us
+title: Eric Antonecchia
+theme: hextra
+
+params:
+  description: "Cybersecurity & Homelab Projects"
+  author:
+    name: Eric Antonecchia
+    email: ""
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    title: Home
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  blog:
+    list:
+      displayTags: true
+
+menu:
+  main:
+    - name: Posts
+      pageRef: /posts
+      weight: 1
+    - name: Projects
+      pageRef: /projects
+      weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
