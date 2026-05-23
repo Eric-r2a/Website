@@ -12,5 +12,6 @@ This is the first post testing out my personal website! I'll be using this space
 - Progress on my homelab setup
 - Cybersecurity topics I'm exploring
 - Tools, configs, and things I figure out the hard way
+- Testing CloudFlare Setup
 
 Stay tuned — more to come soon.
