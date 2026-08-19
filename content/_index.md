@@ -38,7 +38,7 @@
     <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
       <a href="https://linkedin.com/in/eric-antonecchia" target="_blank" style="background: #0077b5; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">LinkedIn</a>
       <a href="/resume.pdf" target="_blank" style="background: #059669; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">Resume</a>
-      <a href="/posts" style="background: #4f46e5; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">Blog</a>
+      <a href="https://github.com/Eric-r2a" target="_blank" style="background: #24292e; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">GitHub</a>
     </div>
   </div>
 
