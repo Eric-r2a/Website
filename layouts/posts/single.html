@@ -14,7 +14,49 @@
 .post-meta {
   font-size: 0.85rem;
   opacity: 0.5;
-  margin: 0 0 40px 0;
+  margin: 0 0 48px 0;
+}
+.post-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 48px 0 16px 0;
+  border-left: 4px solid #4f46e5;
+  padding-left: 12px;
+}
+.post-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 32px 0 12px 0;
+}
+.post-content p {
+  line-height: 1.8;
+  margin: 0 0 20px 0;
+  opacity: 0.85;
+}
+.post-content ul, .post-content ol {
+  margin: 0 0 20px 24px;
+  line-height: 1.8;
+  opacity: 0.85;
+}
+.post-content li {
+  margin-bottom: 6px;
+}
+.post-content strong {
+  opacity: 1;
+}
+.post-content pre {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 24px 0;
+  overflow-x: auto;
+}
+.post-content code {
+  font-size: 0.9rem;
+}
+.post-content hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin: 40px 0;
 }
 </style>
 
@@ -23,6 +65,8 @@
   <p class="post-meta">{{ .Date.Format "January 2, 2006" }}
     {{ with .Params.tags }}· {{ range . }}<span style="margin-right:6px;">#{{ . }}</span>{{ end }}{{ end }}
   </p>
-  {{ .Content }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
 </div>
 {{ end }}
