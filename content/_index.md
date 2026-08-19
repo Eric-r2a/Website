@@ -36,8 +36,9 @@
       <p style="margin: 4px 0 0 0; font-size: 0.8rem; opacity: 0.6;">Cybersecurity & Homelab</p>
     </div>
     <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
-      <a href="https://www.linkedin.com/in/eric-antonecchia/" target="_blank" style="background: #0077b5; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">LinkedIn</a>
-      <a href="/posts" style="background: #4f46e5; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">Posts</a>
+      <a href="https://linkedin.com/in/eric-antonecchia" target="_blank" style="background: #0077b5; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">LinkedIn</a>
+      <a href="/resume.pdf" target="_blank" style="background: #059669; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">Resume</a>
+      <a href="/posts" style="background: #4f46e5; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;">Blog</a>
     </div>
   </div>
 
